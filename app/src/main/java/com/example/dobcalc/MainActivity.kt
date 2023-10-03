@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
             month,
             date
         )
+        datePicker.datePicker.maxDate = System.currentTimeMillis() - 86400000
         datePicker.show()
 
     }
